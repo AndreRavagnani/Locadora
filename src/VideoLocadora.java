@@ -18,7 +18,7 @@ public class VideoLocadora extends Locadora {
 	
 	public void alugarItem(String nomeFilme){
 		if(videosAlugados.contains(nomeFilme)){
-			System.out.println("Filme Já Alugado");
+			System.out.println("Filme Jï¿½ Alugado");
 		}
 		else{
 			videosAlugados.add(nomeFilme);
@@ -37,7 +37,7 @@ public class VideoLocadora extends Locadora {
 		}
 	}
 	public static void main(String args[]){
-		VideoLocadora p = new VideoLocadora("Teste");
+		VideoLocadora p = new VideoLocadora("Locadora Do Velho Leste xD");
 		p.alugarItem("Titanic");
 		p.alugarItem("Jason X");
 		p.alugarItem("Teste");
