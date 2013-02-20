@@ -40,7 +40,7 @@ public class VideoLocadora extends Locadora {
 		VideoLocadora p = new VideoLocadora("Teste");
 		p.alugarItem("Titanic");
 		p.alugarItem("Jason X");
-		p.alugarItem("Brasileirinhas");
+		p.alugarItem("Teste");
 		p.alugarItem("Titanic");
 		p.receberItem("Titanic", 3);
 		System.out.println(p.getNome());
